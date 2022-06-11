@@ -1,6 +1,14 @@
 name: Home
 version: '${project.version}'
 main: xyz.roosterseatyou.home.Home
-api-version: 1.18
+api-version: 1.19
 authors: [ Roosterseatyou ]
 description: /Home command
+
+commands:
+  home:
+      usage: /home
+      description: /home command
+  sethome:
+      usage: /sethome
+      description: /sethome command
